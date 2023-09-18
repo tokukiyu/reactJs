@@ -1,0 +1,15 @@
+body {
+  margin: 0px;
+}
+.CardImg {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  top: 0px;
+}
+.container-bg {
+  background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p1/2135706-shopping-online-concept-with-3d-mobile-phone-and-delivery-truck-on-blue-background-vectoriel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

@@ -1,3 +1,4 @@
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# reactJs
+
+This is reat js repostiroy
+<h2> react front end development </h2>
+<p> this is Tokuma, I am learning react. this repo has some react code and project/ assignments i have done.</p>
+ 8fb0dd4e3b7389ad19675059d9df0f0e3eca6972

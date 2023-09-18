@@ -1,0 +1,144 @@
+{
+  "profile": {
+    "name": "typicode"
+  },
+  "comment": [
+    {
+      "id": 1,
+      "author": "Bin sir",
+      "Message": "it looks great",
+      " CommentedItemId": 1,
+      "date": "2022-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 4,
+      "author": "Bin sir",
+      "Message": "it looks great",
+      "CommentedItemId": 3,
+      "date": "2022-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 1,
+      "author": "Bin sir",
+      "Message": "it looks great",
+      "CommentedItemId": 2,
+      "date": "2022-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 1,
+      "author": "Bin sir",
+      "Message": "it looks great",
+      "CommentedItemId": 3,
+      "date": "2022-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 2,
+      "author": "Bin sir",
+      "Message": "it looks great",
+      "CommentedItemId": 3,
+      "date": "2022-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 3,
+      "author": "Bin sir",
+      "Message": "it looks great",
+      "CommentedItemId": 2,
+      "date": "2022-10-16T17:57:28.556094Z"
+    },
+    {
+      "CommentedItemId": 1,
+      "author": "",
+      "Message": "",
+      "id": 5
+    },
+    {
+      "CommentedItemId": 1,
+      "author": "mmm",
+      "Message": "new msg",
+      "id": 6
+    },
+    {
+      "CommentedItemId": 1,
+      "author": "mmm",
+      "Message": "new msg",
+      "id": 7
+    },
+    {
+      "CommentedItemId": 1,
+      "author": "me",
+      "Message": "sdf",
+      "date": "",
+      "id": 8
+    },
+    {
+      "CommentedItemId": 1,
+      "author": "aa",
+      "Message": "11",
+      "date": "",
+      "id": 9
+    },
+    {
+      "CommentedItemId": 3,
+      "author": "adfs",
+      "Message": "12",
+      "date": "",
+      "id": 10
+    },
+    {
+      "CommentedItemId": 13,
+      "author": "asde",
+      "Message": "aa",
+      "date": "",
+      "id": 11
+    },
+    {
+      "CommentedItemId": 13,
+      "author": "asde",
+      "Message": "aa",
+      "date": "",
+      "id": 12
+    },
+    {
+      "CommentedItemId": 13,
+      "author": "asde",
+      "Message": "aa",
+      "date": "",
+      "id": 13
+    },
+    {
+      "CommentedItemId": 13,
+      "author": "asdf",
+      "Message": "asdf",
+      "date": "",
+      "id": 14
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "author": "Bin sir",
+      "Message": "it looks great",
+      "date": "2022-10-16T17:57:28.556094Z"
+    }
+  ],
+  "likes": [
+    {
+      "featured": true,
+      "price": "12",
+      "forWhom": "women",
+      "condition": "used",
+      "title": "Cabbage",
+      "img": "../assets/girl_jacket.jpg",
+      "id": 1,
+      "likes": null
+    },
+    {
+      "id": 2,
+      "count": 0
+    },
+    {
+      "id": 3,
+      "count": 0
+    }
+  ]
+}
