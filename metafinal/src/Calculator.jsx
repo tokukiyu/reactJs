@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './Calculator.css';
 
 class Calculator extends Component {
   constructor() {
@@ -13,10 +13,10 @@ class Calculator extends Component {
   }
 
   handleNumberClick = (num) => {
-    const { currentInput, display } = this.state;
+    const { currentInput, display, operator } = this.state;
     if (currentInput.length < 9) {
       const updatedInput = currentInput === '0' ? num : currentInput + num;
-      this.setState({ currentInput: updatedInput, display: updatedInput });
+      this.setState({ currentInput: updatedInput, display: operator ? display + num : updatedInput });
     }
   };
 
@@ -27,6 +27,7 @@ class Calculator extends Component {
         operator,
         previousInput: currentInput,
         currentInput: '',
+        display: previousInput + operator,
       });
     }
   };
