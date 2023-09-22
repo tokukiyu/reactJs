@@ -278,80 +278,6 @@ body {
   }
 }
 
-/**/
-.container {
-  width: 100%;
-  height: 100%;
-}
-.navBar-header {
-  position: sticky;
-  display: flex;
-  width: 100vw;
-  max-height: 50px;
-  overflow: hidden;
-  padding-left: 4px;
-  background-color: rgb(255, 255, 255);
-}
-.Category-bar nav {
-  margin: auto;
-  text-align: center;
-}
-.Category-bar nav ul,
-.navBar-header .right-side ul {
-  margin-top: 5px;
-  padding-top: 0px;
-}
-.nav-menu {
-  display: flex;
-  min-width: 95vw;
-}
-.nav-menu .right-side {
-  width: 70%;
-  margin: auto;
-}
-.nav-menu .right-side ul {
-  display: flex;
-  flex-wrap: nowrap;
-}
-.Category-bar nav ul li:hover {
-  color: white;
-  cursor: pointer;
-}
-.right-side ul li {
-  align-items: center;
-}
-.navBar-header .right-side ul li:hover {
-  color: var(--primary-color);
-  cursor: pointer;
-}
-nav ul li:hover {
-  cursor: pointer;
-}
-.gallery-catagories ul li,
-.Category-bar nav ul li,
-.navBar-header .right-side ul li {
-  display: inline-flex;
-  margin-right: 5%;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 550;
-}
-.Category-bar {
-  width: 100%;
-  overflow: hidden;
-  background-color: var(--primary-color);
-  margin: auto;
-}
-.Category-bar > nav {
-  width: 100%;
-  margin: auto;
-  min-width: max-content;
-}
-.Category-bar > nav ul li {
-  margin-right: 10px;
-}
-.Category-bar > nav ul {
-  margin-bottom: 3px;
-}
 a,
 .Link,
 .link {
@@ -401,65 +327,11 @@ a,
   padding: 3px 10px;
   cursor: pointer;
 }
-.logo > span {
-  color: var(--primary-color);
-}
 
-/*Landing page desing*/
-.SellerLanding,
-.landing-page-1st {
-  display: flex;
-  width: 100%;
-  margin: 0px;
-  flex-wrap: wrap;
-  padding: 5% 0px;
-  background-image: linear-gradient(
-    to bottom,
-    #4ddc5c,
-    #4ddc5b79,
-    #4ddc5b4d,
-    #4ddc5b3a,
-    #ffffff,
-    #ffffff
-  );
-}
-.SellerLanding {
-  background-image: linear-gradient(
-    -130deg,
-    #4ddc5b36,
-    #4ddc5b25,
-    #4ddc5b4d,
-    #4ddc5b3a,
-    #ffffff,
-    #ffffff
-  );
-}
-.SellerLanding > div,
-.landing-page-1st > div {
-  margin: auto;
-  text-align: center;
-}
-.home-right-section {
-  max-width: 40%;
-  min-width: 300px;
-}
-.card-body p,
-.home-right-section p {
+
+.card-body p {
   text-indent: 10px;
   text-align: justify;
-}
-.home-left-section {
-  max-width: 50%;
-  min-width: 400px;
-  text-align: center;
-}
-.home-left-section img {
-  width: 98%;
-  min-height: 400px;
-  object-fit: cover;
-}
-.landing-page-1st .btn {
-  line-height: 1.5;
 }
 /*EVENT SECTION*/
 .Events-section {
@@ -535,56 +407,7 @@ a,
   background-color: rgba(0, 0, 0, 0.623);
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.623);
 }
-.product-list .detailed-info {
-  position: absolute;
-  top: 60%;
-  bottom: 0;
-  padding: 10px;
-  margin: 0px;
-  width: 100%;
-  z-index: 1000;
-  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.404);
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.4
-  ); /* Adjust the opacity value to your liking */
-  color: white; /* Set the text color to white */
-}
-.card-title {
-  padding: 10px;
-}
-.product-list .card .card-img {
-  object-fit: cover;
-  object-position: center;
-  height: 50%;
-}
 
-.Product-Detail {
-  width: 80vw;
-  max-width: 90vw;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-.Product-Detail .card {
-  margin: 4px;
-  width: 50%;
-  border-radius: 5px;
-  padding-bottom: 20px;
-  max-height: max-content;
-}
-.Product-Detail .card .card-img {
-  width: 100%;
-  max-height: 70vh;
-  object-fit: contain;
-  object-position: top;
-  z-index: -1;
-}
-.Product-Detail .card .card-footer {
-  z-index: 100;
-}
 
 .profile-pic {
   border-radius: 50%;
@@ -653,10 +476,7 @@ a,
     grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
     grid-gap: 10px;
   }
-  .Product-Detail {
-    width: 90%;
-    max-width: 90%;
-  }
+
   .registration-form {
     min-width: 70%;
   }
@@ -689,34 +509,6 @@ a,
     grid-gap: 5px;
   }
 
-  .home-left-section {
-    max-width: 90%;
-    width: 300px;
-    min-width: 100%;
-  }
-  .home-left-section img {
-    min-height: min-content;
-    max-height: 100%;
-  }
-  .home-right-section {
-    max-width: 90%;
-  }
-  .Product-Detail {
-    width: 100%;
-    max-width: 100%;
-  }
-  .Product-Detail .card {
-    width: 100%;
-  }
-  .Events-section {
-    max-width: 90%;
-    margin: auto;
-  }
-  .Events-section .Card_list {
-    display: flex;
-    margin: auto;
-    flex-wrap: wrap;
-  }
   .footer > div {
     max-width: 90%;
   }

@@ -22,7 +22,7 @@ function Feed() {
   const [posts, setPosts] = useState(initialPosts);
 
   return (
-    <div className="feed" style={{ maxWidth: "600px" }}>
+    <div className="feed" >
       {posts.map((post) => (
         <div key={post.id} className="post card">
           <div className="post-header">
