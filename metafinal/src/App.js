@@ -1,11 +1,10 @@
 import "./App.css";
-import Calculator from "./Calculator";
+import Feed from "./myapp/feedpage";
 
 function App() {
   return (
     <>
-   
-      <Calculator />
+      <Feed />
     </>
   );
 }
